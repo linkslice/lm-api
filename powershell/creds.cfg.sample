@@ -1,0 +1,39 @@
+# lmApiLib credentials configuration file
+# Copy this file to creds.cfg and fill in your values.
+# creds.cfg is excluded from git via .gitignore — never commit real credentials.
+#
+# This file uses the same format as the Python creds.cfg.sample — both
+# lmApiLib.py and lmApiLib.psm1 read INI-style sections from this file.
+#
+# auth_method options:
+#   lmv1   - Recommended. Uses Access ID + Access Key with HMAC-SHA256 signing.
+#             Generate tokens at: Settings > User Access > API Tokens > LMv1 tab
+#   bearer - Simpler, but requires LM APM license (Traces feature).
+#             Generate tokens at: Settings > User Access > API Tokens > Bearer tab
+#
+# Multiple sections are supported:
+#   Connect-LMAccount -Section 'production'
+
+[default]
+account=mycompany
+auth_method=lmv1
+access_id=REPLACE_WITH_ACCESS_ID
+access_key=REPLACE_WITH_ACCESS_KEY
+# ssl_verify=false
+timeout=10
+retries=3
+
+# Example: second instance using Bearer token auth
+# [production-bearer]
+# account=mycompany-prod
+# auth_method=bearer
+# bearer_token=REPLACE_WITH_BEARER_TOKEN
+# timeout=10
+# retries=3
+
+# Example: staging environment
+# [staging]
+# account=mycompany-staging
+# auth_method=lmv1
+# access_id=REPLACE_WITH_ACCESS_ID
+# access_key=REPLACE_WITH_ACCESS_KEY
