@@ -199,15 +199,15 @@ Command-line wrapper for quick ad-hoc queries without writing a script.
 
 | Script | Description |
 |---|---|
-| `DeviceRouter_getDevices.py` | List all devices with pagination |
-| `DeviceRouter_addDevice.py` | Add a single device |
-| `DeviceRouter_addDevicesFromCSV.py` | Bulk-add devices from a CSV file |
-| `DeviceRouter_moveDevice.py` | Move a device to a different group by display name |
-| `DeviceRouter_propertyReport.py` | Export all devices and custom properties to CSV |
-| `AlertRouter_queryAlerts.py` | Query and display active alerts |
-| `AlertRouter_acknowledgeAlerts.py` | Acknowledge all alerts for a device |
-| `SDTRouter_addDeviceSDT.py` | Put a device into SDT by display name |
-| `SDTRouter_addGroupSDT.py` | Put a device group into SDT (one-time or recurring) |
-| `CollectorRouter_getCollectors.py` | List collectors with status and device count |
-| `UserRouter_getUsers.py` | List users with roles and status |
-| `DatasourceRouter_instanceReport.py` | List all instances for a given datasource |
+| `Devices_getDevices.py` | List all devices with pagination |
+| `Devices_addDevice.py` | Add a single device |
+| `Devices_addDevicesFromCSV.py` | Bulk-add devices from a CSV file |
+| `Devices_moveDevice.py` | Move a device to a different group by display name |
+| `Devices_propertyReport.py` | Export all devices and custom properties to CSV |
+| `Alerts_queryAlerts.py` | Query and display active alerts |
+| `Alerts_acknowledgeAlerts.py` | Acknowledge all alerts for a device |
+| `SDTs_addDeviceSDT.py` | Put a device into SDT by display name |
+| `SDTs_addGroupSDT.py` | Put a device group into SDT (one-time or recurring) |
+| `Collectors_getCollectors.py` | List collectors with status and device count |
+| `Users_getUsers.py` | List users with roles and status |
+| `Datasources_instanceReport.py` | List all instances for a given datasource |

@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    DeviceRouter_addDevicesFromCSV.ps1
+    Devices_addDevicesFromCSV.ps1
     Bulk-add devices from a CSV file.
 
 .DESCRIPTION
@@ -13,7 +13,7 @@
     Path to the CSV file. Defaults to 'devices.csv' in the current directory.
 
 .EXAMPLE
-    .\DeviceRouter_addDevicesFromCSV.ps1 -CsvFile .\devices.csv
+    .\Devices_addDevicesFromCSV.ps1 -CsvFile .\devices.csv
 #>
 
 param(

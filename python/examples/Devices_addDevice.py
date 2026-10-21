@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-DeviceRouter_addDevice.py
+Devices_addDevice.py
 
 Add a new device to LogicMonitor.
 Adjust the payload fields for your environment before running.

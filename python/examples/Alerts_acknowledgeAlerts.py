@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-AlertRouter_acknowledgeAlerts.py
+Alerts_acknowledgeAlerts.py
 
 Acknowledge all active unacknowledged alerts for a specific device.
 

@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 """
-DeviceRouter_moveDevice.py
+Devices_moveDevice.py
 
 Move a device to a different device group by display name.
 
 Usage:
-    python DeviceRouter_moveDevice.py
+    python Devices_moveDevice.py
     (edit DEVICE_DISPLAY_NAME and TARGET_GROUP_ID below)
 """
 

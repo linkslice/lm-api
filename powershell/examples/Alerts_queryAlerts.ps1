@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    AlertRouter_queryAlerts.ps1
+    Alerts_queryAlerts.ps1
     Query active (uncleared) alerts and display a summary table.
 
 .PARAMETER MinSeverity

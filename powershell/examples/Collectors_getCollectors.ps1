@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    CollectorRouter_getCollectors.ps1
+    Collectors_getCollectors.ps1
     List all collectors with status, build version, and device count.
     Highlights any collectors that are offline or have no devices assigned.
 #>

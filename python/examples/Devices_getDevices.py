@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-DeviceRouter_getDevices.py
+Devices_getDevices.py
 
 List all devices, paginating through the full result set.
 Prints device ID, display name, and IP address.

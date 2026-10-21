@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    DeviceRouter_propertyReport.ps1
+    Devices_propertyReport.ps1
     Export all devices with selected custom properties to CSV.
 
 .PARAMETER OutputFile
@@ -11,8 +11,8 @@
     Leave empty to include all custom properties.
 
 .EXAMPLE
-    .\DeviceRouter_propertyReport.ps1
-    .\DeviceRouter_propertyReport.ps1 -OutputFile C:\Reports\lm_devices.csv -IncludeProperties 'snmp.community,location,environment'
+    .\Devices_propertyReport.ps1
+    .\Devices_propertyReport.ps1 -OutputFile C:\Reports\lm_devices.csv -IncludeProperties 'snmp.community,location,environment'
 #>
 
 param(

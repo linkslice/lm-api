@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-DeviceRouter_addDevicesFromCSV.py
+Devices_addDevicesFromCSV.py
 
 Bulk-add devices from a CSV file.
 
@@ -11,7 +11,7 @@ Expected CSV format (with header row):
     192.168.1.200,db-server-01,1,5,Database tier
 
 Usage:
-    python DeviceRouter_addDevicesFromCSV.py devices.csv
+    python Devices_addDevicesFromCSV.py devices.csv
 """
 
 import sys

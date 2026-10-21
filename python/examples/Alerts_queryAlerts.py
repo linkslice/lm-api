@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-AlertRouter_queryAlerts.py
+Alerts_queryAlerts.py
 
 Query active (uncleared) alerts, optionally filtered by severity.
 Prints a summary table sorted by severity descending.

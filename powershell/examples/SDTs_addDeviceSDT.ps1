@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    SDTRouter_addDeviceSDT.ps1
+    SDTs_addDeviceSDT.ps1
     Put a device into Scheduled Downtime (SDT) by display name.
 
 .PARAMETER DeviceDisplayName
@@ -13,7 +13,7 @@
     Comment to attach to the SDT. Default: 'Maintenance window'.
 
 .EXAMPLE
-    .\SDTRouter_addDeviceSDT.ps1 -DeviceDisplayName 'my-server-01' -DurationMinutes 120 -Comment 'Patching'
+    .\SDTs_addDeviceSDT.ps1 -DeviceDisplayName 'my-server-01' -DurationMinutes 120 -Comment 'Patching'
 #>
 
 param(

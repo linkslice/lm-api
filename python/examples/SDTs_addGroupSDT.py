@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-SDTRouter_addGroupSDT.py
+SDTs_addGroupSDT.py
 
 Put an entire device group into Scheduled Downtime (SDT).
 

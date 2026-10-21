@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-DeviceRouter_propertyReport.py
+Devices_propertyReport.py
 
 Generate a CSV report of all devices with their custom properties.
 Useful for auditing, CMDB sync, or inventory exports.

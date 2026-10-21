@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-SDTRouter_addDeviceSDT.py
+SDTs_addDeviceSDT.py
 
 Put a device into Scheduled Downtime (SDT) by display name.
 

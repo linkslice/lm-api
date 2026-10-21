@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-CollectorRouter_getCollectors.py
+Collectors_getCollectors.py
 
 List all collectors with status, version, and device count.
 Useful for capacity planning and identifying stale/offline collectors.

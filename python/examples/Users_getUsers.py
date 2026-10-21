@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-UserRouter_getUsers.py
+Users_getUsers.py
 
 List all users with their roles and status.
 Optionally filter to show only active or suspended users.

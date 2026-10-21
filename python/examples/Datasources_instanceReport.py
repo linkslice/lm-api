@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-DatasourceRouter_instanceReport.py
+Datasources_instanceReport.py
 
 For a given datasource name, list all devices it's applied to
 and the instances discovered on each device.

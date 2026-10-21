@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    DeviceRouter_getDevices.ps1
+    Devices_getDevices.ps1
     List all devices, paginating through the full result set.
 #>
 

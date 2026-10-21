@@ -54,11 +54,11 @@ Edit `creds.cfg` and fill in your account name and API token. See [Authenticatio
 ```bash
 # Python
 cd python
-python examples/DeviceRouter_getDevices.py
+python examples/Devices_getDevices.py
 
 # PowerShell
 cd powershell
-.\examples\DeviceRouter_getDevices.ps1
+.\examples\Devices_getDevices.ps1
 ```
 
 ---
@@ -137,17 +137,17 @@ Connect-LMAccount -Section 'production'
 
 ## Example Naming Convention
 
-Examples follow the `RouterName_methodDescription` naming pattern, mirroring the [zenoss-RM-api](https://github.com/zenoss/zenoss-RM-api) library conventions:
+Examples follow the `ResourceArea_methodDescription` naming pattern:
 
 ```
-DeviceRouter_getDevices.py
-DeviceRouter_addDevicesFromCSV.py
-AlertRouter_queryAlerts.py
-SDTRouter_addDeviceSDT.py
-CollectorRouter_getCollectors.py
+Devices_getDevices.py
+Devices_addDevicesFromCSV.py
+Alerts_queryAlerts.py
+SDTs_addDeviceSDT.py
+Collectors_getCollectors.py
 ```
 
-The `RouterName` prefix is conceptual (LM uses REST paths, not routers) — it groups examples by the resource area they operate on.
+The `ResourceArea` prefix groups examples by the LM REST API resource area they operate on (matching the path segment under `/santaba/rest/`).
 
 ---
 

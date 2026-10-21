@@ -175,12 +175,12 @@ catch {
 
 | Script | Description |
 |---|---|
-| `DeviceRouter_getDevices.ps1` | List all devices with pagination |
-| `DeviceRouter_addDevicesFromCSV.ps1` | Bulk-add devices from a CSV file |
-| `DeviceRouter_propertyReport.ps1` | Export devices and custom properties to CSV |
-| `AlertRouter_queryAlerts.ps1` | Query and display active alerts as a table |
-| `SDTRouter_addDeviceSDT.ps1` | Put a device into SDT by display name |
-| `CollectorRouter_getCollectors.ps1` | List collectors with status and device count |
+| `Devices_getDevices.ps1` | List all devices with pagination |
+| `Devices_addDevicesFromCSV.ps1` | Bulk-add devices from a CSV file |
+| `Devices_propertyReport.ps1` | Export devices and custom properties to CSV |
+| `Alerts_queryAlerts.ps1` | Query and display active alerts as a table |
+| `SDTs_addDeviceSDT.ps1` | Put a device into SDT by display name |
+| `Collectors_getCollectors.ps1` | List collectors with status and device count |
 
 ---
 
